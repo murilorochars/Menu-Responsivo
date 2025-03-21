@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.Container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.Container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.Container li {
+    font-size: 22px;
+}
+
+.button {
+    display: none;
+    cursor: pointer;
+}
+
+.button img {
+    width: 60px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 630px) {
+    .Container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .button {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .Menus ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Container.ativo .Menus ul {
+        display: flex;
+    }
+}
