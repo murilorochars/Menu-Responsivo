@@ -1,6 +1,6 @@
 # Menu-Responsivo
 Teste de responsividade com menu feito com <img 
-    align="left" 
+    align="right" 
     alt="HTML"
     title="HTML" 
     width="30px" 
@@ -8,7 +8,7 @@ Teste de responsividade com menu feito com <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
 />
 <img 
-    align="left" 
+    align="right" 
     alt="CSS" 
     title="CSS"
     width="30px" 
@@ -16,7 +16,7 @@ Teste de responsividade com menu feito com <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
 />
 <img 
-    align="left" 
+    align="right" 
     alt="JavaScript" 
     title="JavaScript"
     width="30px" 
